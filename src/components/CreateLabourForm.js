@@ -43,7 +43,7 @@ const CreateLabourForm = () => {
     try {
       const baseUrl = process.env.NEXT_PUBLIC_API_URL;
       const response = await axios.post(
-        `${baseUrl}/api/labour/labour/create`,
+        `${baseUrl}api/labour/labour/create`,
         data,
         {
           headers: {
